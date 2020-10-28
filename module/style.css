@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 1em sans-serif;
+}
+
+.colorBg {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.button {
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #55b174ea;
+  text-align: center;
+  letter-spacing: 0.5px;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.button:focus {
+  background-color: #1e5c47;
+}
+
+.button:hover {
+  background-color: #46806c;
+}
